@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.khizar1556.mkvideoplayer">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:name=".MKPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            />
+
+    </application>
+
+</manifest>

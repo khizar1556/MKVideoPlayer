@@ -1,0 +1,1 @@
+include ':app', ':app:libraries:mkvideoplayer',':app:libraries:ijkplayer-java'
