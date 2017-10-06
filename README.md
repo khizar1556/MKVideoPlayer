@@ -2,9 +2,7 @@
 MKVideoPlayer library is a video player have some basic features that need to develop an video player application in android studio
 
 
-![](https://raw.githubusercontent.com/khizar1556/MKVideoPlayer/master/screenshots/Screenshot_2017-10-06-18-27-04.png)
-![](https://github.com/khizar1556/MKVideoPlayer/blob/master/screenshots/Screenshot_2017-10-06-18-28-12.png)
-![](https://github.com/khizar1556/MKVideoPlayer/blob/master/screenshots/Screenshot_2017-10-06-18-32-34.png) 
+
 
 # features
 1. base on [ijkplayer](https://github.com/Bilibili/ijkplayer).
@@ -44,7 +42,7 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 
 ## case 2: Add a MKplayer in layout
 ### step 1: include video layout in your layout xml file
-`` xml
+``` xml
 
 <include
         layout="@layout/mk_player"
@@ -52,15 +50,15 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
         android:layout_height="match_parent" />
 
 
-``
+```
 ### step 2: How to play a Video using MKPlayer
-`` java
+``` java
 
  MKPlayer mkplayer = new  MKPlayer(Activity);
 mkplayer.play(url);
-``
+```
 ### step 2: How to handle setPlayerCallBacks
-`` java
+``` java
  player.setPlayerCallbacks(new MKPlayer.playerCallbacks() {
             @Override
             public void onNextClick() {
@@ -73,7 +71,7 @@ mkplayer.play(url);
             //Do according to your requirement
             }
         });
-``
+```
 # API:
 * `play(url)` //play video
 * `stop()`//stop play
@@ -90,3 +88,9 @@ mkplayer.play(url);
 * `onComplete(...)` //callback when the play is over
 * `onControlPanelVisibilityChange(...)` //callback when control panel visibility change
 * `setPlayerCallbacks()` //Callback to control next and previous methods
+
+# Screenshots:
+
+![](https://raw.githubusercontent.com/khizar1556/MKVideoPlayer/master/screenshots/Screenshot_2017-10-06-18-27-04.png)
+![](https://github.com/khizar1556/MKVideoPlayer/blob/master/screenshots/Screenshot_2017-10-06-18-28-12.png)
+![](https://github.com/khizar1556/MKVideoPlayer/blob/master/screenshots/Screenshot_2017-10-06-18-32-34.png) 
