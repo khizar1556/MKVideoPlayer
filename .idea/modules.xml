@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MKplayer.iml" filepath="$PROJECT_DIR$/MKplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/libraries/ijkplayer-java/ijkplayer-java.iml" filepath="$PROJECT_DIR$/app/libraries/ijkplayer-java/ijkplayer-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/libraries/libraries.iml" filepath="$PROJECT_DIR$/app/libraries/libraries.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/libraries/mkvideoplayer/mkvideoplayer.iml" filepath="$PROJECT_DIR$/app/libraries/mkvideoplayer/mkvideoplayer.iml" />
     </modules>
