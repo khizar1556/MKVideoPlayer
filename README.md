@@ -1,9 +1,10 @@
-[MK video player](# MKVideoPlayer)
+![MK video player]
+# MKVideoPlayer
 MKVideoPlayer library is a video player have some basic features that need to develop an video player application in android studio
-
-
-
-
+<!---MK video player--->
+<!---MK video player--->
+<!---MK video player--->
+<!---MK video player--->
 # features
 1. base on [ijkplayer](https://github.com/Bilibili/ijkplayer).
 2. gestures for volume control
@@ -12,13 +13,13 @@ MKVideoPlayer library is a video player have some basic features that need to de
 5. fullscreen by manual or sensor
 6. lock screen feature
 7. AspectRatio feature.
-
+<!---MK video player--->
 # How to add Library into Your project
-
-The easiest way to get started using MKVideoPlayer is to add it as a gradle
+<!---MK video player--->
+The easiest way to get started using MKVideoPlayer(MK video player) is to add it as a gradle
 dependency. You need to make sure you have the maven { url 'https://jitpack.io' } repositories
 included in the `build.gradle` file in the root of your project:
-
+<!---MK video player--->
 ```gradle
 allprojects {
 		repositories {
@@ -27,10 +28,10 @@ allprojects {
 		}
 	}
 ```
-
+<!---MK video player---><!---MK video player--->
 Next add a gradle compile dependency to the `build.gradle` file of your app
 module. The following will add a dependency to the full library:
-
+<!---MK video player--->
 ```gradle
 dependencies {
 	        compile 'com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.0'
@@ -39,7 +40,7 @@ dependencies {
 # How to use 
 ## case 1: only want to play a video fullscreen
 just call`MKPlayerActivity.configPlayer(activity).play(url)`.
-
+<!---MK video player--->
 ## case 2: Add a MKplayer in layout
 ### step 1: include video layout in your layout xml file
 ``` xml
@@ -58,6 +59,7 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 mkplayer.play(url);
 ```
 ### step 2: How to handle setPlayerCallBacks
+<!---MK video player--->
 ``` java
  player.setPlayerCallbacks(new MKPlayer.playerCallbacks() {
             @Override
@@ -72,6 +74,7 @@ mkplayer.play(url);
             }
         });
 ```
+<!---MK video player--->
 # API:
 * `play(url)` //play video
 * `stop()`//stop play
@@ -88,9 +91,10 @@ mkplayer.play(url);
 * `onComplete(...)` //callback when the play is over
 * `onControlPanelVisibilityChange(...)` //callback when control panel visibility change
 * `setPlayerCallbacks()` //Callback to control next and previous methods
-
+<!---MK video player--->
 # Screenshots:
-
+<!---MK video player--->
 ![](https://raw.githubusercontent.com/khizar1556/MKVideoPlayer/master/screenshots/Screenshot_2017-10-06-18-27-04.png)
 ![](https://github.com/khizar1556/MKVideoPlayer/blob/master/screenshots/Screenshot_2017-10-06-18-28-12.png)
 ![](https://github.com/khizar1556/MKVideoPlayer/blob/master/screenshots/Screenshot_2017-10-06-18-32-34.png) 
+<!---MK video player--->
