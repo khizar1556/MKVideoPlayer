@@ -34,7 +34,7 @@ module. The following will add a dependency to the full library:
 <!---MK video player--->
 ```gradle
 dependencies {
-	        compile 'com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.0'
+	         compile 'com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5'
 	}
 ```
 # How to use 
