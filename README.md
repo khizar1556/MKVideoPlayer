@@ -1,5 +1,5 @@
-![MK video player]
-# MKVideoPlayer
+
+# MK VideoPlayer
 MKVideoPlayer library is a video player have some basic features that need to develop an video player application in android studio
 <!---MK video player--->
 <!---MK video player--->
@@ -77,10 +77,10 @@ mkplayer.play(url);
 <!---MK video player--->
 # API:
 * `play(url)` //play video
-* `stop()`//stop play
-* `pause()`
-* `start()` 
-* `forward()` // forward or back,example: forward(0.1f) forward(-0.1f)
+* `stop()`//stop video
+* `pause()`//pause video
+* `start()` //start  video
+* `forward()` // forward or back video,example: forward(0.1f) forward(-0.1f)
 * `getCurrentPosition()` 
 * `setScaleType(GiraffePlayer.SCALETYPE_FITPARENT)` //set video scale type
 * `toggleAspectRatio()` // toggle video scale type
