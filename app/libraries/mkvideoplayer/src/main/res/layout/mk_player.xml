@@ -5,7 +5,7 @@
     android:background="#000"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:overrideLibrary="tv.danmaku.ijk.media.player_arm64">
+    >
 
     <com.khizar1556.mkvideoplayer.IjkVideoView
         android:id="@+id/video_view"
