@@ -58,7 +58,7 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
  MKPlayer mkplayer = new  MKPlayer(Activity);
 mkplayer.play(url);
 ```
-### step 2: How to handle setPlayerCallBacks
+### step 3: How to handle setPlayerCallBacks
 <!---MK video player--->
 ``` java
  player.setPlayerCallbacks(new MKPlayer.playerCallbacks() {
@@ -82,7 +82,7 @@ mkplayer.play(url);
 * `start()` //start  video
 * `forward()` // forward or back video,example: forward(0.1f) forward(-0.1f)
 * `getCurrentPosition()` 
-* `setScaleType(GiraffePlayer.SCALETYPE_FITPARENT)` //set video scale type
+* `setScaleType(MKPlayer.SCALETYPE_FITPARENT)` //set video scale type
 * `toggleAspectRatio()` // toggle video scale type
 * `seekTo(...)` //seek to specify position
 * `getDuration()` //get video duration
