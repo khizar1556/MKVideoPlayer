@@ -1,4 +1,10 @@
 
+## Donate
+![Bitcoin](https://bitcoin.org/img/icons/logotop.svg)
+![BitcoinQR](screenshots/3AcFNxGKLW357XKg9RJuBPSU3wjezi1HPh.png)
+
+`3AcFNxGKLW357XKg9RJuBPSU3wjezi1HPh`
+
 # MK VideoPlayer
 MKVideoPlayer library is a video player have some basic features that need to develop an video player application in android studio
 <!---MK video player--->
